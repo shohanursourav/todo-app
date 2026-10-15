@@ -301,7 +301,7 @@ export default function Home() {
               <h1 className="text-2xl font-bold tracking-tight">Shared To-Do</h1>
               <p className="mt-1 truncate text-sm text-zinc-500 dark:text-zinc-400">
                 {mode === "cloud" &&
-                  "Synced to Upstash Redis · auto-refreshes every 5s"}
+                  "Synced and auto-refreshes every 5s"}
                 {mode === "local" &&
                   "Stored in this browser only · add Upstash keys for cloud sync"}
                 {mode === "loading" && "Connecting…"}
